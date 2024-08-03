@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color:gray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:goldenrod;
+}
+
+.search-filter {
+    margin: 20px 0;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#recipes {
+    margin-top: 20px;
+}
+
+.recipe {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.recipe p {
+    margin: 5px 0;
+}
+
+.recipe .rating {
+    display: flex;
+    align-items: center;
+}
+
+.recipe .rating span {
+    margin-right: 5px;
+}
+
+.recipe button {
+    background-color: #dc3545;
+    margin-top: 10px;
+}
+
+.recipe button:hover {
+    background-color: #c82333;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    
+    background-image: url("image/rcipe pic.avif");
+    
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: -1;
+  }

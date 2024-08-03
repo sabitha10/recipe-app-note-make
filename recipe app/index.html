@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background" ></div>
+    <div class="container">
+        
+        <h1>Recipe App</h1>
+        <form id="recipeForm">
+            <input type="text" id="recipeName" placeholder="Recipe Name" required>
+            <textarea id="recipeIngredients" placeholder="Ingredients" required></textarea>
+            <textarea id="recipeInstructions" placeholder="Instructions" required></textarea>
+            <div class="rating">
+                <span>Rate:</span>
+                <select id="recipeRating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <button type="submit">Add Recipe</button>
+        </form>
+        <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search Recipes...">
+        </div>
+        <div id="recipes"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
